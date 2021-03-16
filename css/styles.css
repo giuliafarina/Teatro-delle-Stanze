@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: blanchedalmond;
+    font-family: 'Cormorant Garamond', serif;
+
+    
+    
+}
+
+blockquote {
+    position: absolute;
+    margin:25% 10% 20% 65%; 
+
+}
+
+cite {
+    color: blanchedalmond;
+    
+    
+}
+
+.aboutSection {
+    position: absolute;
+   
+    padding: 100px;;
+}
+
+
+.fab .fas  {
+    color: blanchedalmond;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    
+}
+
+.dropdown-item {
+    color: blanchedalmond;
+    font-size: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: blanchedalmond;
+    padding-top: 30px;
+    font-size: 1.4rem;
+}
+
+.navbar .navbar-brand {
+color: blanchedalmond;
+padding-left: 20px;
+font-size: 2rem;
+}
+
+.navbar-brand img {
+    margin-right: 5px;
+}
+
+.navbar{
+    padding-right: 50px;
+}
+
+
+
+
+
