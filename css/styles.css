@@ -1,17 +1,17 @@
 body {
-    background-color: black;
+    background: black;
+    
+    
     color: blanchedalmond;
     font-family: 'Cormorant Garamond', serif;
-
-    
-    
+  
 }
 
-blockquote {
+/* blockquote {
     position: absolute;
     margin:25% 10% 20% 65%; 
 
-}
+} */
 
 cite {
     color: blanchedalmond;
@@ -19,21 +19,26 @@ cite {
     
 }
 
-.aboutSection {
-    position: absolute;
+.aboutSection h1{
    
-    padding: 100px;;
+    padding: 20px 130px;
+    text-align: center;
 }
 
 
 .fab .fas  {
     color: blanchedalmond;
+    
     padding: 15px;
+}
+.icon:hover{
+   color: grey;
 }
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    background:linear-gradient( black,#373640,#63686e);
 }
 
 .dropdown-menu {
@@ -67,6 +72,10 @@ font-size: 2rem;
 }
 
 
-
+p{
+    font-size:19px;
+    text-align: justify;
+    padding: 5% 10%;
+}
 
 
