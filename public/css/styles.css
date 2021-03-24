@@ -1,12 +1,27 @@
+
 body {
     background-color: black;
     color: blanchedalmond;
     font-family: 'Cormorant Garamond', serif;
+  
     
     
 }
+p {
+      font-size: 1.3rem;
+    text-align: justify;
+    padding: 7% 20%;
+}
 
-
+h1, h2, h3{
+    text-align: center;
+}
+h1{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.2rem;;
+}
 /* Navbar Section */
 
 .dropdown-menu {
@@ -43,15 +58,22 @@ font-size: 2rem;
 
 #aboutus{
     position: relative;
-    font-size:1rem;
-    text-align: justify;
-    padding: 7% 20%;
+   
+    
 }
 
 /* Gibsy Section */
 
+.container {
+    padding-top: 7%;
+}
+.col-sm{
+    padding:6% 2%;
+}
 
-
+.row .title{
+    padding:10%;
+}
 #gibsypugni{
   
     width: 70%;
@@ -59,14 +81,14 @@ font-size: 2rem;
 }
 #gibsy2{
     
-    width: 70%;
+    width: 90%;
+}
+
+#gibsyfarina{
+    width:50%;
 }
 
 
-
-h1, h2, h3{
-    text-align: center;
-}
 
 
 /* Footer */
