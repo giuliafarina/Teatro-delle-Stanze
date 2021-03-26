@@ -64,8 +64,8 @@ font-size: 2rem;
 
 /* Gibsy Section */
 
-.container {
-    padding-top: 7%;
+.text-box{
+    padding-top:6%;
 }
 .col-sm{
     padding:6% 2%;
@@ -74,6 +74,8 @@ font-size: 2rem;
 .row .title{
     padding:10%;
 }
+
+
 #gibsypugni{
   
     width: 70%;
@@ -88,9 +90,19 @@ font-size: 2rem;
     width:50%;
 }
 
+/* Giovanni VIII Section */
 
-
-
+.image-center{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+#GiovannaPaola{
+    width: 90%;
+}
+#Giovannaporta{
+    width:80%;
+}
 /* Footer */
 .fab .fas  {
     color: blanchedalmond;
