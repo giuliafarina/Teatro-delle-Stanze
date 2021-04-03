@@ -21,6 +21,12 @@ app.get("/about", function (req, res) {
     res.render("about");
 });
 
+// Attori Section
+app.get("/attori", function (req, res) {
+    res.render("attori");
+});
+
+
 // Gibsy Section
 app.get("/gibsy", function (req, res) {
     res.render("gibsy");
@@ -36,6 +42,7 @@ app.get("/panediferro", function (req, res) {
 app.get("/giovanni", function (req, res) {
     res.render("giovanni");
 });
+
 
 
 // app.get("/footer", function (req, res) {

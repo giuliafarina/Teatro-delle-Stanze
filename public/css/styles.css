@@ -10,7 +10,7 @@ body {
 p {
       font-size: 1.3rem;
     text-align: justify;
-    padding: 7% 20%;
+    
 }
 
 h1, h2, h3{
@@ -62,6 +62,10 @@ font-size: 2rem;
     
 }
 
+/* Attori */
+#melodieNicco{
+    width:50%;
+}
 /* Gibsy Section */
 
 .text-box{
@@ -114,5 +118,5 @@ font-size: 2rem;
 footer {
     text-align: center;
     padding: 10px;
-      background:linear-gradient( black,#373640,#63686e);
+      background:linear-gradient(black,#373640,#63686e);
 }
