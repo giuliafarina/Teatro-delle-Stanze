@@ -63,8 +63,8 @@ font-size: 2rem;
 }
 
 /* Attori */
-#melodieNicco{
-    width:50%;
+.main-content img{
+    width:100%;
 }
 /* Gibsy Section */
 
@@ -101,12 +101,7 @@ font-size: 2rem;
   margin: auto;
   width: 50%;
 }
-#GiovannaPaola{
-    width: 90%;
-}
-#Giovannaporta{
-    width:80%;
-}
+
 /* Footer */
 .fab .fas  {
     color: blanchedalmond;
