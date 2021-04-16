@@ -3,9 +3,14 @@ body {
     background-color: black;
     color: blanchedalmond;
     font-family: 'Cormorant Garamond', serif;
-  
-    
-    
+      
+}
+
+.title{
+    padding:5%;
+}
+    .container-fluid{
+    padding:7% 8%;
 }
 p {
       font-size: 1.3rem;
@@ -42,7 +47,8 @@ h3{
 
 .navbar .navbar-brand {
 color: blanchedalmond;
-padding-left: 20px;
+padding-left: 40px;
+padding-top: 30px;
 font-size: 2rem;
 }
 
@@ -51,7 +57,7 @@ font-size: 2rem;
 }
 
 .navbar{
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 /* About Us Section  */
@@ -99,8 +105,13 @@ font-size: 2rem;
 .image-center{
   display: block;
   margin: auto;
-  width: 50%;
+  width: 70%;
 }
+
+/* Pane di Ferro Section  */
+
+
+
 
 /* Footer */
 .fab .fas  {

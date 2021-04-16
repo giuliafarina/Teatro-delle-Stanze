@@ -1,6 +1,18 @@
 
 const express = require("express");
 const bodyParser = require("body-parser");
+const imagemin = require("imagemin");
+const imageminMozjpeg = require('imagemin-mozjpeg');
+
+(async () => {
+    await imagemin(['images/*.jpg'], 'build/images', {
+        use: [
+            imageminMozjpeg()
+        ]
+    });
+
+    console.log('Images optimized');
+})();
 
 const app = express();
 
@@ -42,8 +54,19 @@ app.get("/panediferro", function (req, res) {
 app.get("/giovanni", function (req, res) {
     res.render("giovanni");
 });
+// Melodie Stonate
+app.get("/melodiestonate", function (req, res) {
+    res.render("melodiestonate");
+})
+// Taglio del Bosco Section
+app.get("/tagliodelbosco", function (req, res) {
+    res.render("tagliodelbosco");
+})
 
-
+// Gallery Section
+app.get("/gallery", function (req, res) {
+    res.render("gallery");
+})
 
 // app.get("/footer", function (req, res) {
 //     res.render("footer");
