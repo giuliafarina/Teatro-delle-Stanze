@@ -126,3 +126,8 @@ footer {
     padding: 10px;
       background:linear-gradient(black,#373640,#63686e);
 }
+
+/* Gallery */
+.modal-img{
+   width: 100%;
+}
