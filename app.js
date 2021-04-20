@@ -68,6 +68,11 @@ app.get("/gallery", function (req, res) {
     res.render("gallery");
 })
 
+// Archivio Section
+app.get("/archivio", function (req, res) {
+    res.render("archivio");
+})
+
 // app.get("/footer", function (req, res) {
 //     res.render("footer");
 // });

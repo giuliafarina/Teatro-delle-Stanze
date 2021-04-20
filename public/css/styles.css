@@ -1,21 +1,25 @@
 
 body {
     background-color: black;
-    color: blanchedalmond;
-    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    font-family:'Josefin Sans', sans-serif;
       
 }
 
 .title{
     padding:5%;
 }
-    .container-fluid{
-    padding:7% 8%;
+    .container-fluid {
+    padding:3% 8%;
+   
+}
+ .row img{
+    max-width: 100%;
 }
 p {
       font-size: 1.3rem;
     text-align: justify;
-    
+    padding: 5% 8%;
 }
 
 h1, h2, h3{
@@ -35,20 +39,20 @@ h3{
 }
 
 .dropdown-item {
-    color: blanchedalmond;
+    color: white;
     font-size: 1rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: blanchedalmond;
-    padding-top: 30px;
+    color: white;
+    
     font-size: 1.4rem;
 }
 
 .navbar .navbar-brand {
-color: blanchedalmond;
+color: white;
 padding-left: 40px;
-padding-top: 30px;
+
 font-size: 2rem;
 }
 
@@ -69,8 +73,19 @@ font-size: 2rem;
 }
 
 /* Attori */
-.main-content img{
-    width:100%;
+
+.card{
+    background-color: black;
+}
+
+
+.card-text{
+    font-size: medium;
+    color: white;
+}
+
+.card img{
+    max-width: 100%;
 }
 /* Gibsy Section */
 
@@ -115,7 +130,7 @@ font-size: 2rem;
 
 /* Footer */
 .fab .fas  {
-    color: blanchedalmond;
+    color: white;
     padding: 15px;
 }
 .icon:hover{
