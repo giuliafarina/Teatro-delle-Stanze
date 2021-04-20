@@ -5,6 +5,9 @@ body {
     font-family:'Josefin Sans', sans-serif;
       
 }
+.card img{
+    max-width: 100%;
+}
 
 .title{
     padding:5%;
