@@ -129,6 +129,8 @@ font-size: 2rem;
     
 }
 
+
+
 /* Attori */
 
 .card{
@@ -186,9 +188,9 @@ font-size: 2rem;
 
 
 /* Footer */
-.fab .fas  {
+.icon {
     color: white;
-    padding: 15px;
+    padding: 5px;
 }
 .icon:hover{
     color:grey;
