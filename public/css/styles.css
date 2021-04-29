@@ -1,8 +1,9 @@
 
 body {
-    background-color: black;
+    background-color: #1b2021;
     color: white;
-    font-family:'Josefin Sans', sans-serif;
+    /* font-family:'Josefin Sans', sans-serif; */
+    font-family: 'Lato', sans-serif;
       
 }
 .card img{
@@ -92,7 +93,7 @@ h3{
 /* Navbar Section */
 
 .dropdown-menu {
-    background-color: black;
+    background-color: #1b2021;
     
 }
 
@@ -208,7 +209,7 @@ font-size: 2rem;
 footer {
     text-align: center;
     padding: 10px;
-      background:linear-gradient(black,#373640,#63686e);
+      background:#1b2021;
 }
 
 /* Gallery */
