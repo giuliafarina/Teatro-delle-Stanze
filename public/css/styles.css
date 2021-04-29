@@ -31,7 +31,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  /* transition effect. not necessary */
+  /* transition effect*/
   transition: opacity .2s, visibility .2s;
 }
 
@@ -68,6 +68,7 @@ body {
 }
     .container-fluid {
     padding:3% 8%;
+    position: relative;
    
 }
  .row img{
@@ -122,12 +123,21 @@ font-size: 2rem;
 }
 
 /* About Us Section  */
+       
 
-#aboutus{
-    position: relative;
-   
-    
+.container-fluid .about{
+
+    padding: 5% 0;
+    background-color: white;
+    color: black;
 }
+
+ .about h1{
+    text-align: left;
+    margin-left: 10%;
+    text-decoration: underline black;
+}
+
 
 
 
