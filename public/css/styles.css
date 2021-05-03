@@ -53,17 +53,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .title{
     padding:5%;
 }
@@ -76,7 +65,7 @@ body {
     max-width: 100%;
 }
 p {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
     text-align: justify;
     padding: 5% 8%;
 }
@@ -131,6 +120,7 @@ font-size: 2rem;
     padding: 6% 0;
     background-color:#f3f4ed;
     color: #424642;
+    
 }
 
  /* .description h1{
