@@ -1,7 +1,7 @@
 
 body {
     background-color: #1b2021;
-    color: white;
+    color: #f3f4ed;
     /* font-family:'Josefin Sans', sans-serif; */
     font-family: 'Lato', sans-serif;
       
@@ -25,7 +25,7 @@ body {
   left: 0;
   right: 0;
   background: rgba(155, 99, 62, 0.6);
-  color: #fff;
+  
   visibility: hidden;
   opacity: 0;
   display: flex;
@@ -98,12 +98,12 @@ h3{
 }
 
 .dropdown-item {
-    color: white;
+    color: #f3f4ed;
     font-size: 1rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    color: #f3f4ed;
     
     font-size: 1.4rem;
 }
@@ -126,18 +126,18 @@ font-size: 2rem;
 /* About Us Section  */
        
 
-.container-fluid .about{
+.container-fluid .description{
 
-    padding: 5% 0;
-    background-color: white;
-    color: black;
+    padding: 6% 0;
+    background-color:#f3f4ed;
+    color: #424642;
 }
 
- .about h1{
-    text-align: left;
+ /* .description h1{
+    text-align: center;
     margin-left: 10%;
     text-decoration: underline black;
-}
+} */
 
 
 
@@ -210,6 +210,10 @@ footer {
     text-align: center;
     padding: 10px;
       background:#1b2021;
+}
+
+.footer .container-fluid{
+    display: flex;
 }
 
 /* Gallery */
