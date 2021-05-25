@@ -14,6 +14,7 @@ body {
 
 .card {
     color:#424642;
+    background-color: #f3f4ed;;
     
 
 }
@@ -22,7 +23,7 @@ body {
     height: 100px;
     overflow: hidden;
 }
-.card .showContent p{
+.card .show-content p{
     height: auto;
 }
 /* .card .cardbody .showContent a .readmore-btn{
@@ -135,13 +136,13 @@ font-size: 2rem;
 /* About Us Section  */
        
 
-.container-fluid .description{
+/* .container-fluid .description{
 
     padding: 6% 0;
     background-color:#f3f4ed;
     color: #424642;
     
-}
+} */
 
  /* .description h1{
     text-align: center;
