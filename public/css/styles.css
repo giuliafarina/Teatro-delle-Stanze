@@ -132,21 +132,7 @@ font-size: 2rem;
 
 
 
-/* Attori */
 
-.card{
-    background-color: black;
-}
-
-
-.card-text{
-    font-size: medium;
-    color: white;
-}
-
-.card img{
-    max-width: 100%;
-}
 /* Gibsy Section */
 
 .text-box{
@@ -210,6 +196,7 @@ footer {
 .modal-img{
    width: 100%;
 }
+
 
 /* Archivio */
 
