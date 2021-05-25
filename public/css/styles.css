@@ -5,10 +5,29 @@ body {
     /* font-family:'Josefin Sans', sans-serif; */
     font-family: 'Lato', sans-serif;
       
+
+/* Cards Attori     */
 }
-.card img{
-    max-width: 100%;
+.embed-responsive .card-img-top {
+    object-fit: cover;
 }
+
+.card {
+    color:#424642;
+    
+
+}
+
+ .card .card-body p{
+    height: 100px;
+    overflow: hidden;
+}
+.card .showContent p{
+    height: auto;
+}
+/* .card .cardbody .showContent a .readmore-btn{
+
+} */
 
 
 
@@ -68,6 +87,7 @@ p {
       font-size: 1.1rem;
     text-align: justify;
     padding: 5% 8%;
+    
 }
 
 h1, h2, h3{
